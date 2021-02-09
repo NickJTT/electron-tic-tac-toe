@@ -1,0 +1,19 @@
+{
+  "name": "tictactoe",
+  "version": "1.0.0",
+  "description": "A simple tic tac toe game!",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron-packager ."
+  },
+  "author": "Meow :3",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^7.1.8",
+    "electron-squirrel-startup": "^1.0.0",
+    "electron-winstaller": "^4.0.0"
+  },
+  "devDependencies": {
+    "electron-packager": "^14.1.1"
+  }
+}
